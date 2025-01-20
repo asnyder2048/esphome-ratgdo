@@ -30,7 +30,7 @@ namespace ratgdo {
     using namespace protocol;
 
     static const char* const TAG = "ratgdo";
-    static const int SYNC_DELAY = 1000;
+    static const int SYNC_DELAY = 10000;
 
     static const int CLEAR_PRESENCE = 60000; // how long to keep arriving/leaving active
     static const int PRESENCE_DETECT_WINDOW = 300000; // how long to calculate presence after door state change
