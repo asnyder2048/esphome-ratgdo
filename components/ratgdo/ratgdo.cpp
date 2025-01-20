@@ -22,6 +22,8 @@
 #include "esphome/core/gpio.h"
 #include "esphome/core/log.h"
 
+#undef USE_ESP32 // Don't know what this is for, but it's wrong for my ESP32
+
 namespace esphome {
 namespace ratgdo {
 
